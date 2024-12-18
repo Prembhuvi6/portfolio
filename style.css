@@ -1,0 +1,174 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#logopng {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#headimg {
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#profileImg {
+    max-width: 250px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.content {
+    max-width: 500px;
+}
+
+#Phead {
+    font-size: 30px;
+    color: rgb(63, 18, 224);
+}
+
+.ContactDetails {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #e3e3ea;
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 600px) {
+    .ContactDetails {
+        width: 100%;
+        text-align: center;
+        left: 0; /* Ensures responsiveness for small screens */
+    }
+}
+
+.skillContent {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.backendskilss {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 10px; /* Add some space between elements */
+}
+
+.frontendskills {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 10px; /* Add some space between elements */
+}
+
+.databaseskills {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 10px; /* Add some space between elements */
+}
+
+.environments {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#skillsHeding{
+    color: blueviolet;
+}
+.ExperienceProjects {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Projects {
+
+    flex: 1;
+    background-color: #16a4e6;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 10px; /* Add some space between elements */
+}
+
+.Experience {
+
+    flex: 1;
+    background-color: #3810eb;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 10px; /* Add some space between elements */
+}
+
+.Experiences {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Exp1 {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 10px; /* Add some space between elements */
+}
+
+.Exp2 {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 10px; /* Add some space between elements */
+}
+.Projectses{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.proj1{
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 10px; /* Add some space between elements */
+}
+.proj2{
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 10px; /* Add some space between elements */
+}
+.proj3{
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 10px; /* Add some space between elements */
+}
