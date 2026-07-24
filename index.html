@@ -238,6 +238,7 @@
     <li><a href="#skills">Skills</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
   <a href="mailto:premakumarmurukutti@gmail.com" class="nav-cta">Hire Me</a>
@@ -324,26 +325,27 @@
       <div class="project-title">VLKS</div>
       <div class="project-subtitle">Virtual Loco Kavach Simulator</div>
       <div class="project-desc">
-        Web-based simulation system for Kavach railway safety. Built APIs handling real-time signal processing, gradient calculations, and movement authority logic. Integrated with SQL Server for data storage and analysis.
+        ASP.NET Core Web API backend using serial (COM port) communication to receive real-time signal aspect, Movement Authority, and distance data from Stationary KAVACH via MCU2, streamed to an Angular client over SignalR. Auto-captures a UI screenshot on second MA reception and generates an EPPlus Excel report with comparison tables and PSR/gradient graphs.
       </div>
       <div class="project-stack">
-        <span class="stack-tag">ASP.NET MVC Core</span>
+        <span class="stack-tag">ASP.NET Core Web API</span>
+        <span class="stack-tag">Angular</span>
+        <span class="stack-tag">SignalR</span>
         <span class="stack-tag">EF Core</span>
         <span class="stack-tag">SQL Server</span>
-        <span class="stack-tag">C#</span>
       </div>
     </div>
 
     <div class="project-card">
-      <div class="project-num">02 / OPERATIONS</div>
-      <div class="project-title">SVDU</div>
-      <div class="project-subtitle">Station Video Display Unit</div>
+      <div class="project-num">02 / RAILWAY SAFETY</div>
+      <div class="project-title">SKCP</div>
+      <div class="project-subtitle">Stationary KAVACH Parameter Configuration</div>
       <div class="project-desc">
-        Station-side simulation module for monitoring and controlling system behavior. Developed inter-module APIs for communication between station and onboard simulators with real-time data synchronization.
+        ASP.NET Core MVC application for configuring RDSO-specified Stationary KAVACH parameters — station boundaries, absolute location, and traffic capacity per Annexure-A3 of the KAVACH (Indian Railway ATP) spec. Includes views for GSM APN, Radio MODEM, and IP/port configuration for KMS, NMS, and TSRMS network entities, with EF Core + stored procedures for CRUD and CRC32 checksum validation for data integrity.
       </div>
       <div class="project-stack">
-        <span class="stack-tag">ASP.NET MVC</span>
-        <span class="stack-tag">Web API</span>
+        <span class="stack-tag">ASP.NET Core MVC</span>
+        <span class="stack-tag">EF Core</span>
         <span class="stack-tag">SQL Server</span>
         <span class="stack-tag">C#</span>
       </div>
@@ -354,14 +356,14 @@
       <div class="project-title">HMS</div>
       <div class="project-subtitle">Hotel Management System</div>
       <div class="project-desc">
-        Complete hotel booking and management platform. Angular-powered responsive UI with component routing, RESTful APIs for booking lifecycle management, and Entity Framework Core data layer.
+        Hotel management application built with Angular 21 standalone components, Angular Router, and Angular Material for managing rooms and bookings. CRUD operations via Angular HttpClient with JSON Server, Reactive Forms for booking and validation, and RxJS Observables with services and dependency injection for client-side error handling.
       </div>
       <div class="project-stack">
-        <span class="stack-tag">Angular</span>
-        <span class="stack-tag">ASP.NET Core API</span>
-        <span class="stack-tag">EF Core</span>
+        <span class="stack-tag">Angular 21</span>
         <span class="stack-tag">TypeScript</span>
-        <span class="stack-tag">SQL Server</span>
+        <span class="stack-tag">Angular Material</span>
+        <span class="stack-tag">RxJS</span>
+        <span class="stack-tag">JSON Server</span>
       </div>
     </div>
 
@@ -379,13 +381,14 @@
       <div class="timeline-dot"></div>
       <div class="timeline-date">May 2023 – Mar 2026 · 2 yrs 10 mos</div>
       <div class="timeline-role">.NET Developer</div>
-      <div class="timeline-company">Areca Embedded Systems Pvt Ltd · Full-time</div>
+      <div class="timeline-company">Areca Embedded Systems Pvt Ltd · 3 Yrs</div>
       <ul class="timeline-points">
-        <li>Built full-stack applications with Angular SPA + ASP.NET Core Web API</li>
-        <li>Developed 15+ RESTful APIs with EF Core (Code-First Migrations)</li>
-        <li>Delivered railway simulation systems (VLKS, SVDU) and HMS</li>
-        <li>Managed IIS deployments and Git/GitHub source control workflows</li>
-        <li>Worked in Agile sprints with code reviews and sprint planning</li>
+        <li>Designed full-stack apps with Angular (frontend) and ASP.NET Core Web API (backend) following MVC and SPA architecture</li>
+        <li>Built and consumed RESTful APIs with EF Core (Code-First, Migrations) and ADO.NET against SQL Server</li>
+        <li>Delivered railway simulation and configuration systems (VLKS, SKCP) and HMS</li>
+        <li>Applied OOP and SOLID principles for clean, reusable, maintainable code</li>
+        <li>Managed IIS deployments, used Postman for API testing, and collaborated via Git/GitHub</li>
+        <li>Worked within Agile/SDLC workflows with regular code reviews</li>
       </ul>
     </div>
 
@@ -393,7 +396,7 @@
       <div class="timeline-dot" style="background: var(--accent2); box-shadow: 0 0 12px var(--accent2);"></div>
       <div class="timeline-date">Jun 2022 – Dec 2022 · 6 months</div>
       <div class="timeline-role">Jr. Java Developer</div>
-      <div class="timeline-company">Fixity Technologies Pvt Ltd · Internship</div>
+      <div class="timeline-company">Fixity Technologies Pvt Ltd · Internship, 6 Months</div>
       <ul class="timeline-points">
         <li>Contributed to Java-based E-Commerce web application</li>
         <li>Integrated frontend components with backend REST endpoints</li>
@@ -401,6 +404,21 @@
       </ul>
     </div>
 
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="section-tag">Background</div>
+  <h2 class="section-title">Education</h2>
+  <p class="section-sub">Foundation in engineering that grounds the software work.</p>
+  <div class="timeline fade-up">
+    <div class="timeline-item">
+      <div class="timeline-dot" style="background: var(--accent3); box-shadow: 0 0 12px var(--accent3);"></div>
+      <div class="timeline-date">2022 · 70%</div>
+      <div class="timeline-role">B.Tech — Electrical & Electronics Engineering</div>
+      <div class="timeline-company">JNTU Kakinada</div>
+    </div>
   </div>
 </section>
 
